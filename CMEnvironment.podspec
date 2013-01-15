@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "Environment variables to your iOS project in a nicely way"
   s.homepage     = "https://github.com/lucasmedeirosleite/CMEnvironment"
 
-  s.license      = { :type => 'MIT', :file => 'LICENCE' }
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   
   s.author       = { "Lucas Medeiros" => "lucastoc@gmail.com" }
   
