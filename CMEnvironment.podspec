@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "CMEnvironment"
   s.version      = "1.0.0"
-  s.summary      = "Environment variables to your iOS project in a nicely way"
+  s.summary      = "Environment variables to your iOS project in a nicely way."
   s.homepage     = "https://github.com/lucasmedeirosleite/CMEnvironment"
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
