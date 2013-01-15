@@ -4,7 +4,7 @@ This project brings the idea of Environment variables to your iOS project in a n
 
 ##Contact:
 
-Developed by [Lucas Medeiros](https://www.twitter.com/aspmedeiros) at [Codeminer42](http://www.codeminer42.com) in [Fortaleza](http://goo.gl/maps/EIAxy)
+Developed by [Lucas Medeiros](https://www.twitter.com/aspmedeiros) and [Alisson Sales](https://twitter.com/alissonsales) at [Codeminer42](http://www.codeminer42.com) in [Fortaleza](http://goo.gl/maps/EIAxy)
 
 Follow us on twitter: [@Codeminer42](https://twitter.com/Codeminer42)
 
