@@ -1,0 +1,17 @@
+
+PODS:
+- Kiwi (1.1.1)
+- NSArray+Functional (1.0.0)
+- NSDictionary+TRVSUnderscoreCamelCaseAdditions (0.1.0)
+
+DEPENDENCIES:
+- Kiwi (= 1.1.1)
+- NSArray+Functional (= 1.0.0)
+- NSDictionary+TRVSUnderscoreCamelCaseAdditions (= 0.1.0)
+
+SPEC CHECKSUMS:
+  NSArray+Functional: 2fb24f1533c1380a595ed1da347bd4ec705f5495
+  NSDictionary+TRVSUnderscoreCamelCaseAdditions: 67c824d93d46cb24fce9bea02ef378b43ed82102
+  Kiwi: 06407ae4d33a33310aed1202113d002eda1d56eb
+
+COCOAPODS: 0.15.2
