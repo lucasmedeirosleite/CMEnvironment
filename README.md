@@ -54,8 +54,6 @@ Run `pod install` to install the dependencies.
 
 The idea came from [this post](http://blog.carbonfive.com/2011/06/20/managing-ios-configurations-per-environment-in-xcode-4/) by [Rob Pak](http://blog.carbonfive.com/author/rpak/).
 
-Rob 
-
 ## License
 
 Usage is provided under the [MIT License](http://http://opensource.org/licenses/mit-license.php).  See LICENSE for the full details.
