@@ -46,6 +46,42 @@ Run `pod install` to install the dependencies.
 
 * See the example code
 
+## Usage 
+
+Inherit from CMEnvironment class and create properties with the same name of the key attribute of your plist. For example:
+
+* If you have, on your Environment.plist, a key named baseURL with the value https://api.app.com, you can do this:
+
+```objective-c
+
+#import "CMEnvironment.h"
+
+@interface CMAppEnvironment : CMEnvironment
+
+@property (nonatomic, copy) NSString *baseURL;
+
+@end
+
+```
+
+* The class and its methods:
+
+```objective-c
+
+@interface CMEnvironment : NSObject
+
+@property (nonatomic, copy) NSString *name;
+
++ (id) sharedInstance; //returns a singleton instance using the application main bundle
+- (id)initWithBundle:(NSBundle *)bundle;
+- (BOOL)isDebug;
+- (BOOL)isRelease;
+- (void)changeToEnvironmenNamed:(NSString *)environment;
+
+@end
+
+```
+
 ## Requirements
 
 `CMEnvironment` requires iOS 5.x or greater.

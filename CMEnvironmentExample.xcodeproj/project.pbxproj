@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04D54189DCF84BCB8DFA13B9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCB3CDCDE5D4CB191C996E0 /* libPods.a */; };
 		A7A14C98810D4527A2476895 /* libPods-CMEnvironmentExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE675F0E16CF4C5D9A7D56D9 /* libPods-CMEnvironmentExampleTests.a */; };
+		C6ACED2216F68688001CB6FD /* Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6ACED2116F68688001CB6FD /* Release.plist */; };
 		C6B6E6A416A4F6AF00607FC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B6E6A316A4F6AF00607FC4 /* UIKit.framework */; };
 		C6B6E6A616A4F6AF00607FC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B6E6A516A4F6AF00607FC4 /* Foundation.framework */; };
 		C6B6E6A816A4F6AF00607FC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B6E6A716A4F6AF00607FC4 /* CoreGraphics.framework */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		037A040D1F59494286018216 /* Pods-CMEnvironmentExampleTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMEnvironmentExampleTests.xcconfig"; path = "Pods/Pods-CMEnvironmentExampleTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		45E15764EC6A4B969386A42D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		C6ACED2116F68688001CB6FD /* Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Release.plist; sourceTree = "<group>"; };
 		C6B6E69F16A4F6AF00607FC4 /* CMEnvironmentExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMEnvironmentExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B6E6A316A4F6AF00607FC4 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C6B6E6A516A4F6AF00607FC4 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -157,6 +159,7 @@
 				C6B6E6B716A4F6AF00607FC4 /* Default@2x.png */,
 				C6B6E6B916A4F6AF00607FC4 /* Default-568h@2x.png */,
 				C6B6E6FA16A4FD1200607FC4 /* Debug.plist */,
+				C6ACED2116F68688001CB6FD /* Release.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				C6B6E6BA16A4F6AF00607FC4 /* Default-568h@2x.png in Resources */,
 				C6B6E6BD16A4F6AF00607FC4 /* MainStoryboard.storyboard in Resources */,
 				C6B6E6FB16A4FD1200607FC4 /* Debug.plist in Resources */,
+				C6ACED2216F68688001CB6FD /* Release.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

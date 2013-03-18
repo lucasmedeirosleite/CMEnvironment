@@ -111,6 +111,48 @@ describe(@"CMEnvironment", ^{
         
     });
     
+    describe(@"#isDebug", ^{
+        
+        __block NSBundle *bundle;
+        
+        beforeEach(^{
+            bundle = [NSBundle nullMock];
+            [bundle stub:@selector(infoDictionary) andReturn:@{ @"Configuration" : @"Debug" }];
+            [bundle stub:@selector(pathForResource:ofType:) andReturn:@"Debug.plist"];
+            environment = [[CMEnvironment alloc] initWithBundle:bundle];
+        });
+        
+        specify(^{
+            [[environment should] respondToSelector:@selector(isDebug)];
+        });
+        
+        specify(^{
+            [[theValue([environment isDebug]) should] beTrue];
+        });
+        
+    });
+    
+    describe(@"#isRelease", ^{
+        
+        __block NSBundle *bundle;
+        
+        beforeEach(^{
+            bundle = [NSBundle nullMock];
+            [bundle stub:@selector(infoDictionary) andReturn:@{ @"Configuration" : @"Release" }];
+            [bundle stub:@selector(pathForResource:ofType:) andReturn:@"Release.plist"];
+            environment = [[CMEnvironment alloc] initWithBundle:bundle];
+        });
+        
+        specify(^{
+            [[environment should] respondToSelector:@selector(isRelease)];
+        });
+        
+        specify(^{
+            [[theValue([environment isRelease]) should] beTrue];
+        });
+        
+    });
+    
 });
 
 describe(@"CMAppEnvironment", ^{
@@ -153,6 +195,24 @@ describe(@"CMAppEnvironment", ^{
         
         specify(^{
             [[environment.codeNumber should] equal:[NSNumber numberWithInteger:10]];
+        });
+        
+    });
+    
+    describe(@"#changeToEnvironmenNamed:", ^{
+        
+        __block CMAppEnvironment *environment;
+        beforeEach(^{
+            environment = [CMAppEnvironment sharedInstance];
+            [environment changeToEnvironmenNamed:@"Release"];
+        });
+        
+        specify(^{
+            [[environment.codeURL should] equal:@"www.google.com"];
+        });
+        
+        specify(^{
+            [[environment.codeNumber should] equal:[NSNumber numberWithInteger:5]];
         });
         
     });

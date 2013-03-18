@@ -37,6 +37,14 @@
     return self;
 }
 
+- (void)changeToEnvironmenNamed:(NSString *)environment
+{
+    NSBundle *bundle = [NSBundle mainBundle];
+    [self checkPreConditionsFor:bundle];
+    [self setValuesForBundle:bundle withEnvironmentNamed:environment];
+    [self populateProperties];
+}
+
 - (void)checkPreConditionsFor:(NSBundle *)bundle
 {
     // Check if a bundle was passed
@@ -57,6 +65,12 @@
 {
     // Set current environment name Ex: Debug, Release, Whatever
     _name = [[bundle infoDictionary] objectForKey:@"Configuration"];
+    [self createPlistDictionaryFor:bundle];
+}
+
+- (void)setValuesForBundle:(NSBundle *)bundle withEnvironmentNamed:(NSString *)environment
+{
+    _name = environment;
     [self createPlistDictionaryFor:bundle];
 }
 
@@ -95,6 +109,16 @@
 - (NSArray *) iVarsForEnvironmentDictionary
 {
     return [_environmentDictionary allKeys];
+}
+
+- (BOOL)isDebug
+{
+    return [_name isEqualToString:@"Debug"];
+}
+
+- (BOOL)isRelease
+{
+    return [_name isEqualToString:@"Release"];
 }
 
 @end

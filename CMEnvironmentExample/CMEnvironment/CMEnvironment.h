@@ -13,5 +13,8 @@
 
 + (id) sharedInstance; //returns a singleton instance using the application main bundle
 - (id)initWithBundle:(NSBundle *)bundle;
+- (BOOL)isDebug;
+- (BOOL)isRelease;
+- (void)changeToEnvironmenNamed:(NSString *)environment;
 
 @end
