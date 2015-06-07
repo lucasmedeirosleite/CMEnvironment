@@ -15,7 +15,7 @@
 
 @implementation CMEnvironment
 
-+ (id) sharedInstance
++ (instancetype) sharedInstance
 {
     static CMEnvironment *__sharedInstance;
     static dispatch_once_t onceToken;
@@ -26,7 +26,7 @@
     return __sharedInstance;
 }
 
-- (id)initWithBundle:(NSBundle *)bundle
+- (instancetype)initWithBundle:(NSBundle *)bundle
 {
     self = [super init];
     if (self) {

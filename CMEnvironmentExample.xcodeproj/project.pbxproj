@@ -21,7 +21,6 @@
 		C6B6E6BA16A4F6AF00607FC4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B6E6B916A4F6AF00607FC4 /* Default-568h@2x.png */; };
 		C6B6E6BD16A4F6AF00607FC4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B6E6BB16A4F6AF00607FC4 /* MainStoryboard.storyboard */; };
 		C6B6E6C016A4F6AF00607FC4 /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B6E6BF16A4F6AF00607FC4 /* CMViewController.m */; };
-		C6B6E6C816A4F6AF00607FC4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B6E6C716A4F6AF00607FC4 /* SenTestingKit.framework */; };
 		C6B6E6C916A4F6AF00607FC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B6E6A316A4F6AF00607FC4 /* UIKit.framework */; };
 		C6B6E6CA16A4F6AF00607FC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B6E6A516A4F6AF00607FC4 /* Foundation.framework */; };
 		C6B6E6D216A4F6AF00607FC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6B6E6D016A4F6AF00607FC4 /* InfoPlist.strings */; };
@@ -42,8 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		037A040D1F59494286018216 /* Pods-CMEnvironmentExampleTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMEnvironmentExampleTests.xcconfig"; path = "Pods/Pods-CMEnvironmentExampleTests.xcconfig"; sourceTree = SOURCE_ROOT; };
-		45E15764EC6A4B969386A42D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		16ED645F7F25A3C9379383D1 /* Pods-CMEnvironmentExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMEnvironmentExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CMEnvironmentExampleTests/Pods-CMEnvironmentExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		2AC28736839D91D761441D65 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8E5C52A379A64F3260C734EB /* Pods-CMEnvironmentExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMEnvironmentExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMEnvironmentExampleTests/Pods-CMEnvironmentExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2CFE27D80549499D438544E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C6ACED2116F68688001CB6FD /* Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Release.plist; sourceTree = "<group>"; };
 		C6B6E69F16A4F6AF00607FC4 /* CMEnvironmentExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMEnvironmentExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B6E6A316A4F6AF00607FC4 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -61,8 +62,7 @@
 		C6B6E6BC16A4F6AF00607FC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C6B6E6BE16A4F6AF00607FC4 /* CMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMViewController.h; sourceTree = "<group>"; };
 		C6B6E6BF16A4F6AF00607FC4 /* CMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMViewController.m; sourceTree = "<group>"; };
-		C6B6E6C616A4F6AF00607FC4 /* CMEnvironmentExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMEnvironmentExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6B6E6C716A4F6AF00607FC4 /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C6B6E6C616A4F6AF00607FC4 /* CMEnvironmentExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CMEnvironmentExampleTests.octest; path = CMEnvironmentExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B6E6CF16A4F6AF00607FC4 /* CMEnvironmentExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMEnvironmentExampleTests-Info.plist"; sourceTree = "<group>"; };
 		C6B6E6D116A4F6AF00607FC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C6B6E6F316A4F8BD00607FC4 /* CMEnvironmentSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMEnvironmentSpec.m; sourceTree = "<group>"; };
@@ -91,7 +91,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6B6E6C816A4F6AF00607FC4 /* SenTestingKit.framework in Frameworks */,
 				C6B6E6C916A4F6AF00607FC4 /* UIKit.framework in Frameworks */,
 				C6B6E6CA16A4F6AF00607FC4 /* Foundation.framework in Frameworks */,
 				A7A14C98810D4527A2476895 /* libPods-CMEnvironmentExampleTests.a in Frameworks */,
@@ -101,6 +100,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6CA9E197422B9CC33CDFB68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2CFE27D80549499D438544E /* Pods.debug.xcconfig */,
+				2AC28736839D91D761441D65 /* Pods.release.xcconfig */,
+				8E5C52A379A64F3260C734EB /* Pods-CMEnvironmentExampleTests.debug.xcconfig */,
+				16ED645F7F25A3C9379383D1 /* Pods-CMEnvironmentExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C6B6E69416A4F6AF00607FC4 = {
 			isa = PBXGroup;
 			children = (
@@ -108,8 +118,7 @@
 				C6B6E6CD16A4F6AF00607FC4 /* CMEnvironmentExampleTests */,
 				C6B6E6A216A4F6AF00607FC4 /* Frameworks */,
 				C6B6E6A016A4F6AF00607FC4 /* Products */,
-				45E15764EC6A4B969386A42D /* Pods.xcconfig */,
-				037A040D1F59494286018216 /* Pods-CMEnvironmentExampleTests.xcconfig */,
+				A6CA9E197422B9CC33CDFB68 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,7 +137,6 @@
 				C6B6E6A316A4F6AF00607FC4 /* UIKit.framework */,
 				C6B6E6A516A4F6AF00607FC4 /* Foundation.framework */,
 				C6B6E6A716A4F6AF00607FC4 /* CoreGraphics.framework */,
-				C6B6E6C716A4F6AF00607FC4 /* SenTestingKit.framework */,
 				CCCB3CDCDE5D4CB191C996E0 /* libPods.a */,
 				FE675F0E16CF4C5D9A7D56D9 /* libPods-CMEnvironmentExampleTests.a */,
 			);
@@ -257,7 +265,7 @@
 			name = CMEnvironmentExampleTests;
 			productName = CMEnvironmentExampleTests;
 			productReference = C6B6E6C616A4F6AF00607FC4 /* CMEnvironmentExampleTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -266,6 +274,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CM;
+				LastTestingUpgradeCheck = 0630;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Codeminer 42";
 			};
@@ -325,7 +334,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-CMEnvironmentExampleTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CMEnvironmentExampleTests/Pods-CMEnvironmentExampleTests-resources.sh\"\n";
 		};
 		A9CDE9ECB80141888E99FDFB /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -339,7 +348,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 		};
 		C6B6E6C416A4F6AF00607FC4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -467,11 +476,12 @@
 		};
 		C6B6E6D916A4F6AF00607FC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45E15764EC6A4B969386A42D /* Pods.xcconfig */;
+			baseConfigurationReference = C2CFE27D80549499D438544E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMEnvironmentExample/CMEnvironmentExample-Prefix.pch";
 				INFOPLIST_FILE = "CMEnvironmentExample/CMEnvironmentExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -479,11 +489,12 @@
 		};
 		C6B6E6DA16A4F6AF00607FC4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45E15764EC6A4B969386A42D /* Pods.xcconfig */;
+			baseConfigurationReference = 2AC28736839D91D761441D65 /* Pods.release.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMEnvironmentExample/CMEnvironmentExample-Prefix.pch";
 				INFOPLIST_FILE = "CMEnvironmentExample/CMEnvironmentExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -491,39 +502,39 @@
 		};
 		C6B6E6DC16A4F6AF00607FC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 037A040D1F59494286018216 /* Pods-CMEnvironmentExampleTests.xcconfig */;
+			baseConfigurationReference = 8E5C52A379A64F3260C734EB /* Pods-CMEnvironmentExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = "${inherited}";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CMEnvironmentExample.app/CMEnvironmentExample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMEnvironmentExample/CMEnvironmentExample-Prefix.pch";
 				INFOPLIST_FILE = "CMEnvironmentExampleTests/CMEnvironmentExampleTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
 		C6B6E6DD16A4F6AF00607FC4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 037A040D1F59494286018216 /* Pods-CMEnvironmentExampleTests.xcconfig */;
+			baseConfigurationReference = 16ED645F7F25A3C9379383D1 /* Pods-CMEnvironmentExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = "${inherited}";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CMEnvironmentExample.app/CMEnvironmentExample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMEnvironmentExample/CMEnvironmentExample-Prefix.pch";
 				INFOPLIST_FILE = "CMEnvironmentExampleTests/CMEnvironmentExampleTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};

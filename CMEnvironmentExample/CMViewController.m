@@ -22,7 +22,7 @@
     environment = [CMAppEnvironment sharedInstance];
     NSLog(@"Environment name: %@", environment.name);
     NSLog(@"URL: %@", environment.codeURL);
-    NSLog(@"NUMBER: %d", [environment.codeNumber integerValue]);
+    NSLog(@"NUMBER: %ld", (long)[environment.codeNumber integerValue]);
 }
 
 - (void)didReceiveMemoryWarning

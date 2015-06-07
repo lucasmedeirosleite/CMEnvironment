@@ -11,8 +11,8 @@
 
 @property (nonatomic, copy) NSString *name;
 
-+ (id) sharedInstance; //returns a singleton instance using the application main bundle
-- (id)initWithBundle:(NSBundle *)bundle;
++ (instancetype) sharedInstance; //returns a singleton instance using the application main bundle
+- (instancetype)initWithBundle:(NSBundle *)bundle;
 - (BOOL)isDebug;
 - (BOOL)isRelease;
 - (void)changeToEnvironmenNamed:(NSString *)environment;
